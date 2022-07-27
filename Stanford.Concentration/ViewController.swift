@@ -25,16 +25,17 @@ class ViewController: UIViewController {
         }
     }
     
-    
+   let emojiCollection = ["🦈", "🦙", "🐀", "🦖"]
     
     @IBOutlet var buttonCollection: [UIButton]!
     @IBOutlet weak var touchLabel: UILabel!
     @IBAction func buttonAction(_ sender: UIButton) {
         touches += 1
-        flipButton(emoji: "🐊", button: sender)
+        if let buttonIndex = buttonCollection.firstIndex(of: sender) {
+            flipButton(emoji: emojiCollection[buttonIndex], button: sender)
+        }
         
     }
-    
     
     
     override func viewDidLoad() {
