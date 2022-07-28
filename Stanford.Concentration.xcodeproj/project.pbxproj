@@ -13,6 +13,8 @@
 		B3A011F128914BE5008FEE6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A011EF28914BE5008FEE6A /* Main.storyboard */; };
 		B3A011F328914BE5008FEE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A011F228914BE5008FEE6A /* Assets.xcassets */; };
 		B3A011F628914BE5008FEE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A011F428914BE5008FEE6A /* LaunchScreen.storyboard */; };
+		B3FC98912892E65000520022 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC98902892E65000520022 /* Card.swift */; };
+		B3FC98932892E68200520022 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC98922892E68200520022 /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B3A011F228914BE5008FEE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A011F528914BE5008FEE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3A011F728914BE5008FEE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FC98902892E65000520022 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B3FC98922892E68200520022 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B3A011F228914BE5008FEE6A /* Assets.xcassets */,
 				B3A011F428914BE5008FEE6A /* LaunchScreen.storyboard */,
 				B3A011F728914BE5008FEE6A /* Info.plist */,
+				B3FC98902892E65000520022 /* Card.swift */,
+				B3FC98922892E68200520022 /* ConcentrationGame.swift */,
 			);
 			path = Stanford.Concentration;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				B3A011EE28914BE5008FEE6A /* ViewController.swift in Sources */,
 				B3A011EA28914BE5008FEE6A /* AppDelegate.swift in Sources */,
+				B3FC98932892E68200520022 /* ConcentrationGame.swift in Sources */,
 				B3A011EC28914BE5008FEE6A /* SceneDelegate.swift in Sources */,
+				B3FC98912892E65000520022 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

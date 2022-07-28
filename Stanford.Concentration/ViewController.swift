@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var game = ConcentrationGame()
+    
     var touches = 0 {
         didSet {
             touchLabel.text = "Touches: \(touches)"
@@ -34,9 +36,7 @@ class ViewController: UIViewController {
         if let buttonIndex = buttonCollection.firstIndex(of: sender) {
             flipButton(emoji: emojiCollection[buttonIndex], button: sender)
         }
-        
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
