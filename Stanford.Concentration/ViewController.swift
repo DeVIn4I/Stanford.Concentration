@@ -77,6 +77,7 @@ extension Int {
             return 0
         }
     }
+    print("Hello Git")
+    print("Test PR")
 }
 
-print("Hello Git")
